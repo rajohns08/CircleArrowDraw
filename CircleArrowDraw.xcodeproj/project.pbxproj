@@ -14,6 +14,7 @@
 		DC95BD771A7985D100C1BEC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC95BD761A7985D100C1BEC4 /* Images.xcassets */; };
 		DC95BD7A1A7985D100C1BEC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC95BD781A7985D100C1BEC4 /* LaunchScreen.xib */; };
 		DC95BD861A7985D100C1BEC4 /* CircleArrowDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95BD851A7985D100C1BEC4 /* CircleArrowDrawTests.m */; };
+		DC95BD911A79863800C1BEC4 /* CircleArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95BD901A79863800C1BEC4 /* CircleArrowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DC95BD7F1A7985D100C1BEC4 /* CircleArrowDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleArrowDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC95BD841A7985D100C1BEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC95BD851A7985D100C1BEC4 /* CircleArrowDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleArrowDrawTests.m; sourceTree = "<group>"; };
+		DC95BD8F1A79863800C1BEC4 /* CircleArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleArrowView.h; sourceTree = "<group>"; };
+		DC95BD901A79863800C1BEC4 /* CircleArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleArrowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				DC95BD761A7985D100C1BEC4 /* Images.xcassets */,
 				DC95BD781A7985D100C1BEC4 /* LaunchScreen.xib */,
 				DC95BD691A7985D100C1BEC4 /* Supporting Files */,
+				DC95BD8F1A79863800C1BEC4 /* CircleArrowView.h */,
+				DC95BD901A79863800C1BEC4 /* CircleArrowView.m */,
 			);
 			path = CircleArrowDraw;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC95BD911A79863800C1BEC4 /* CircleArrowView.m in Sources */,
 				DC95BD721A7985D100C1BEC4 /* ViewController.m in Sources */,
 				DC95BD6F1A7985D100C1BEC4 /* AppDelegate.m in Sources */,
 				DC95BD6C1A7985D100C1BEC4 /* main.m in Sources */,

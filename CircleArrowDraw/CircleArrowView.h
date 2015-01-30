@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CircleArrowView.h
 //  CircleArrowDraw
 //
 //  Created by Adam Johns on 1/28/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CircleArrowView : UIView
 
 @end
